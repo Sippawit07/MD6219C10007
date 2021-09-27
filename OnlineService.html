@@ -1,16 +1,126 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="OnlineService MD6219C10007">
     <meta name="description" content="OnlineService MD6219C10007">
-    <meta name="author" content=MD6219C10007">
+    <meta name="author" content="MD6219C10007">
     <title>OnlineService</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/icon.jpg" type="image/x-icon">
 </head>
-<body>
-    
+
+<body bgcolor="#F0F8FF">
+    <br><br><br>
+    <div align="center">
+        <img src="./images/OS1.jpg" alt="OnlineServiceImage" width="500">
+    </div>
+    <br>
+    <h1 align="center">Online Services V.1.0</h1>
+    <h2 align="center">"ชำระค่าสาธารณูปโภคหลากหลายเพื่อความสะดวกของคุณ"</h2>
+    <hr width="1400">
+    <font style="font-size: 5mm;">
+        <form action="#" method="GET">
+            <table border="0" align="center" cellpadding="5">
+                <tr>
+                    <td align="right">
+                        รหัสประจำตัวประชาชน
+                    </td>
+                    <td>
+                        <input type="text" name="national_id" id="national_id" maxlength="13">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        คำนำหน้า
+                    </td>
+                    <td>
+                        <input type="radio" name="sex_sex_type" id="" value="นาย" checked>นาย
+                        <input type="radio" name="sex_type" id="" value="นาง">นาง
+                        <input type="radio" name="sex_type" id="" value="นางสาว">นางสาว
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        ชื่อ - สกุล
+                    </td>
+                    <td>
+                        <input type="text" name="name_subname" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        ค่าสาธารณูปโภค
+                    </td>
+                    <td>
+                        <input type="checkbox" name="service1" id="" value="ปะปา">ปะปา
+                        &nbsp
+                        <input type="number" name="pay_service1" id=""> บาท
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="servic2" id="" value="ไฟฟ้า">ไฟฟ้า
+                        &nbsp
+                        <input type="number" name="pay_service2" id=""> บาท
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="servic3" id="" value="โทรศัพท์บ้าน">โทรศัพท์บ้าน
+                        &nbsp
+                        <input type="number" name="pay_service3" id=""> บาท
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="servic4" id="" value="AIS">AIS
+                        &nbsp
+                        <input type="number" name="pay_service4" id=""> บาท
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="servic5" id="" value="DTAC">DTAC
+                        &nbsp
+                        <input type="number" name="pay_service5" id=""> บาท
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="servic6" id="" value="TRUE">TRUE
+                        &nbsp
+                        <input type="number" name="pay_service6" id=""> บาท
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        ส่วนลดเฉพาะค่าสาธารณูปโภค
+                    </td>
+                    <td>
+                        <select name="sevice_dc" id="">
+                            <option value="dc1">ไม่มีส่วนลด</option>
+                            <option value="dc2">ลด 5%</option>
+                            <option value="dc3">ลด 10%</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <hr width="1400">
+            <div align="center">
+                <input type="submit" value="ชำระค่าบริการ">
+                &nbsp
+                <input type="reset" value="ยกเลิก">
+            </div>
+        </form>
+    </font>
+    <h3 align="center"> <u>หมายเหตุ</u> ค่าบริการ 15 บาทต่อรายการสาธารูปโภค และไม่น่านำไปคิดกับส่วนลด</h3>
 </body>
 </html>
